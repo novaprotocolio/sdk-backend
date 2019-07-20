@@ -1,6 +1,6 @@
 # Nova SDK Backend
 
-[![CircleCI](https://circleci.com/gh/NovaProtocol/sdk-backend.svg?style=svg)](https://circleci.com/gh/NovaProtocol/sdk-backend)
+[![CircleCI](https://circleci.com/gh/novaprotocolio/sdk-backend.svg?style=svg)](https://circleci.com/gh/novaprotocolio/sdk-backend)
 [![Go Report Card](https://goreportcard.com/badge/github.com/novaprotocolio/sdk-backend)](https://goreportcard.com/report/github.com/novaprotocolio/sdk-backend)
 
 The Nova SDK is a collection of golang language packages.
@@ -12,8 +12,8 @@ This project cannot be used alone.
 You need to add your own application logic.
 The following projects are built on top of this SDK.
 
-- [nova-scaffold-dex](https://github.com/NovaProtocol/nova-scaffold-dex)
-- [nova-augur-scaffold](https://github.com/NovaProtocol/nova-augur-scaffold) (working in progress)
+- [nova-scaffold-dex](https://github.com/novaprotocolio/nova-scaffold-dex)
+- [nova-augur-scaffold](https://github.com/novaprotocolio/nova-augur-scaffold) (working in progress)
 
 ## Break down to each package
 
