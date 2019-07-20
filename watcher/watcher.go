@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/NovaProtocol/sdk-backend/common"
-	"github.com/NovaProtocol/sdk-backend/sdk"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/sdk"
+	"github.com/novaprotocolio/sdk-backend/utils"
 )
 
 type Watcher struct {

@@ -1,7 +1,7 @@
 # Nova SDK Backend
 
 [![CircleCI](https://circleci.com/gh/NovaProtocol/sdk-backend.svg?style=svg)](https://circleci.com/gh/NovaProtocol/sdk-backend)
-[![Go Report Card](https://goreportcard.com/badge/github.com/NovaProtocol/sdk-backend)](https://goreportcard.com/report/github.com/NovaProtocol/sdk-backend)
+[![Go Report Card](https://goreportcard.com/badge/github.com/novaprotocolio/sdk-backend)](https://goreportcard.com/report/github.com/novaprotocolio/sdk-backend)
 
 The Nova SDK is a collection of golang language packages.
 You can use it to build a Dapp application backend based on the Nova contract quickly.
@@ -75,8 +75,8 @@ then push the change event to all subscribers.
 
 ```golang
 import (
-    github.com/NovaProtocol/sdk-backend/common
-    github.com/NovaProtocol/sdk-backend/websocket
+    github.com/novaprotocolio/sdk-backend/common
+    github.com/novaprotocolio/sdk-backend/websocket
 )
 
 // new a source queue

@@ -5,7 +5,7 @@ package rlp
 import (
 	"bytes"
 
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 )
 
 func Encode(items interface{}) []byte {

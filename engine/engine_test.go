@@ -2,7 +2,7 @@ package engine
 
 import (
 	"context"
-	"github.com/NovaProtocol/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/common"
 	"github.com/labstack/gommon/log"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/suite"

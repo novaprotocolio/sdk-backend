@@ -5,7 +5,7 @@ import (
 	"crypto/elliptic"
 	"errors"
 	"fmt"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/btcsuite/btcd/btcec"
 	"golang.org/x/crypto/sha3"
 	"math/big"

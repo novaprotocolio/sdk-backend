@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/NovaProtocol/sdk-backend/common"
-	"github.com/NovaProtocol/sdk-backend/sdk"
+	"github.com/novaprotocolio/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/sdk"
 	"github.com/stretchr/testify/suite"
 )
 

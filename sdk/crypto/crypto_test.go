@@ -1,7 +1,7 @@
 package crypto
 
 import (
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

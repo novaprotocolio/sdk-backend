@@ -1,4 +1,4 @@
-module github.com/NovaProtocol/sdk-backend
+module github.com/novaprotocolio/sdk-backend
 
 require (
 	github.com/allegro/bigcache v1.2.1 // indirect

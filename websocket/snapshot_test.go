@@ -1,7 +1,7 @@
 package websocket
 
 import (
-	"github.com/NovaProtocol/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/common"
 	"github.com/stretchr/testify/mock"
 )
 

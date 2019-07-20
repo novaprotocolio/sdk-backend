@@ -3,10 +3,10 @@ package launcher
 import (
 	"crypto/ecdsa"
 	"database/sql"
-	"github.com/NovaProtocol/sdk-backend/sdk/crypto"
-	"github.com/NovaProtocol/sdk-backend/sdk/signer"
-	"github.com/NovaProtocol/sdk-backend/sdk/types"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/sdk/crypto"
+	"github.com/novaprotocolio/sdk-backend/sdk/signer"
+	"github.com/novaprotocolio/sdk-backend/sdk/types"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"sync"
 )
 

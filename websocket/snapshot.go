@@ -3,7 +3,7 @@ package websocket
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/NovaProtocol/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/common"
 	"io/ioutil"
 	"net/http"
 )

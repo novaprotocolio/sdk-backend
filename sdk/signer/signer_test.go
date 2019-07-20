@@ -1,9 +1,9 @@
 package signer
 
 import (
-	"github.com/NovaProtocol/sdk-backend/sdk/crypto"
-	"github.com/NovaProtocol/sdk-backend/sdk/types"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/sdk/crypto"
+	"github.com/novaprotocolio/sdk-backend/sdk/types"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/stretchr/testify/assert"
 	"math/big"
 	"testing"

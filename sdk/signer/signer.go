@@ -2,10 +2,10 @@ package signer
 
 import (
 	"crypto/ecdsa"
-	"github.com/NovaProtocol/sdk-backend/sdk/crypto"
-	"github.com/NovaProtocol/sdk-backend/sdk/rlp"
-	"github.com/NovaProtocol/sdk-backend/sdk/types"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/sdk/crypto"
+	"github.com/novaprotocolio/sdk-backend/sdk/rlp"
+	"github.com/novaprotocolio/sdk-backend/sdk/types"
+	"github.com/novaprotocolio/sdk-backend/utils"
 )
 
 // HomesteadHash returns the hash of an unsigned transaction

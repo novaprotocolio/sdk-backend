@@ -10,9 +10,9 @@ import (
 
 	"crypto/ecdsa"
 
-	"github.com/NovaProtocol/sdk-backend/sdk"
-	"github.com/NovaProtocol/sdk-backend/sdk/crypto"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/sdk"
+	"github.com/novaprotocolio/sdk-backend/sdk/crypto"
+	"github.com/novaprotocolio/sdk-backend/utils"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

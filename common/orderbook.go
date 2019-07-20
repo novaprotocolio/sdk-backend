@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/cevaris/ordered_map"
 	"github.com/labstack/gommon/log"
 	"github.com/petar/GoLLRB/llrb"

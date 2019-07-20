@@ -1,7 +1,7 @@
 package rlp
 
 import (
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/stretchr/testify/suite"
 	"testing"
 )

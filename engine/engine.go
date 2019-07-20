@@ -2,7 +2,7 @@ package engine
 
 import (
 	"context"
-	"github.com/NovaProtocol/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/common"
 	"sync"
 )
 

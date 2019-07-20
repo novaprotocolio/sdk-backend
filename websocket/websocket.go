@@ -2,7 +2,7 @@ package websocket
 
 import (
 	"context"
-	"github.com/NovaProtocol/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/common"
 )
 
 var channelCreators = make(map[string]func(channelID string) IChannel)

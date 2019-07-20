@@ -1,6 +1,6 @@
 package websocket
 
-import "github.com/NovaProtocol/sdk-backend/common"
+import "github.com/novaprotocolio/sdk-backend/common"
 
 type IChannel interface {
 	GetID() string

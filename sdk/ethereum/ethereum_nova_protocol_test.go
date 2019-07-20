@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NovaProtocol/sdk-backend/sdk"
-	"github.com/NovaProtocol/sdk-backend/sdk/crypto"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/sdk"
+	"github.com/novaprotocolio/sdk-backend/sdk/crypto"
+	"github.com/novaprotocolio/sdk-backend/utils"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/suite"
 )

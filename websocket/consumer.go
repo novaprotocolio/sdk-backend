@@ -3,8 +3,8 @@ package websocket
 import (
 	"context"
 	"encoding/json"
-	"github.com/NovaProtocol/sdk-backend/common"
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/common"
+	"github.com/novaprotocolio/sdk-backend/utils"
 )
 
 // StartConsumer initializes a queue instance and ready events from it

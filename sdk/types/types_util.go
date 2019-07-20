@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/NovaProtocol/sdk-backend/utils"
+	"github.com/novaprotocolio/sdk-backend/utils"
 )
 
 func HexToAddress(s string) Address { return BytesToAddress(utils.Hex2Bytes(s)) }
