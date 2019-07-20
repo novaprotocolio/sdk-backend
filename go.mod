@@ -1,5 +1,7 @@
 module github.com/novaprotocolio/sdk-backend
 
+//replace github.com/ethereum/go-ethereum => ../go-ethereum 
+
 require (
 	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20190628180533-8e7d5b18fe7a // indirect
@@ -7,7 +9,8 @@ require (
 	github.com/cevaris/ordered_map v0.0.0-20180310183325-0efaee1733e3
 	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/ethereum/go-ethereum v0.0.0-00010101000000-000000000000
+	// github.com/ethereum/go-ethereum v0.0.0-00010101000000-000000000000
+	github.com/ethereum/go-ethereum v1.8.27
 	github.com/go-playground/locales v0.12.1 // indirect
 	github.com/go-playground/universal-translator v0.16.0 // indirect
 	github.com/go-playground/validator v9.29.0+incompatible // indirect
@@ -46,4 +49,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
 
-replace github.com/ethereum/go-ethereum => ../go-ethereum // v1.8.27github.com/ethereum/go-ethereum v0.0.0-00010101000000-000000000000
+
