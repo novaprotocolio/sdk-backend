@@ -77,12 +77,12 @@ func (s *ethereumTestSuite) TestAddLeadingZero() {
 }
 
 func (s *ethereumTestSuite) TestGetTokenBalance() {
-	balance := s.blockchain.GetTokenBalance("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218", "0x31Ebd457b999Bf99759602f5Ece5AA5033CB56B3")
+	balance := s.blockchain.GetTokenBalance("0x224E34A640FC4108FABDb201eD85D909059105fA", "0x31Ebd457b999Bf99759602f5Ece5AA5033CB56B3")
 	s.Equal("100000000000000000000000", balance.String())
 }
 
 func (s *ethereumTestSuite) TestGetTokenAllowance() {
-	allowance := s.blockchain.GetTokenAllowance("0x4C4Fa7E8EA4cFCfC93DEAE2c0Cff142a1DD3a218", "0x04f67E8b7C39A25e100847Cb167460D715215FEb", "0x126aa4ef50a6e546aa5ecd1eb83c060fb780891a")
+	allowance := s.blockchain.GetTokenAllowance("0x224E34A640FC4108FABDb201eD85D909059105fA", "0x1D52a52f5996FDff37317a34EBFbeC7345Be3b55", "0x126aa4ef50a6e546aa5ecd1eb83c060fb780891a")
 	s.True(allowance.GreaterThanOrEqual(utils.StringToDecimal("0x0f00000000000000000000000000000000000000000000000000000000000000")))
 }
 

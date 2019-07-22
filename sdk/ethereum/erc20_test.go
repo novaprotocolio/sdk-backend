@@ -23,7 +23,7 @@ const rpcURL = "http://127.0.0.1:8545"
 func TestErc20(t *testing.T) {
 	os.Setenv("NSK_BLOCKCHAIN_RPC_URL", rpcURL)
 	erc20 := NewErc20Service(nil)
-	fmt.Println(erc20.Name("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218"))
+	fmt.Println(erc20.Name("0x224E34A640FC4108FABDb201eD85D909059105fA"))
 }
 
 func (s *erc20TestSuite) SetupSuite() {
@@ -60,32 +60,32 @@ func (s *erc20TestSuite) getBody(request *http.Request) []byte {
 }
 
 func (s *erc20TestSuite) TestBalanceOf() {
-	_, balance := s.erc20.BalanceOf("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218", "0x31ebd457b999bf99759602f5ece5aa5033cb56b3")
+	_, balance := s.erc20.BalanceOf("0x224E34A640FC4108FABDb201eD85D909059105fA", "0x31ebd457b999bf99759602f5ece5aa5033cb56b3")
 	s.Require().Equal("100000000000000000000000", balance.String())
 }
 
 func (s *erc20TestSuite) TestAllowanceOf() {
-	_, allowance := s.erc20.AllowanceOf("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218", "0x04f67e8b7c39a25e100847cb167460d715215feb", "0x31ebd457b999bf99759602f5ece5aa5033cb56b3")
+	_, allowance := s.erc20.AllowanceOf("0x224E34A640FC4108FABDb201eD85D909059105fA", "0x1D52a52f5996FDff37317a34EBFbeC7345Be3b55", "0x31ebd457b999bf99759602f5ece5aa5033cb56b3")
 	s.Require().Equal("108555083659983933209597798445644913612440610624038028786991485007418559037440", allowance.String())
 }
 
 func (s *erc20TestSuite) TestTotalSupply() {
-	_, totalSupply := s.erc20.TotalSupply("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218")
+	_, totalSupply := s.erc20.TotalSupply("0x224E34A640FC4108FABDb201eD85D909059105fA")
 	s.Require().Equal("1560000000000000000000000000", totalSupply.String())
 }
 
 func (s *erc20TestSuite) TestGetSymbol() {
-	_, symbol := s.erc20.Symbol("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218")
+	_, symbol := s.erc20.Symbol("0x224E34A640FC4108FABDb201eD85D909059105fA")
 	s.Require().Equal("Hot", symbol)
 }
 
 func (s *erc20TestSuite) TestGetName() {
-	_, name := s.erc20.Name("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218")
+	_, name := s.erc20.Name("0x224E34A640FC4108FABDb201eD85D909059105fA")
 	s.Require().Equal("NovaToken", name)
 }
 
 func (s *erc20TestSuite) TestGetDecimals() {
-	_, decimals := s.erc20.Decimals("0x4c4fa7e8ea4cfcfc93deae2c0cff142a1dd3a218")
+	_, decimals := s.erc20.Decimals("0x224E34A640FC4108FABDb201eD85D909059105fA")
 	s.Require().Equal(18, decimals)
 }
 
