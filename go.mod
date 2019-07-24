@@ -13,11 +13,8 @@ require (
 	github.com/go-playground/validator v9.29.0+incompatible // indirect
 	github.com/go-redis/redis v6.15.1+incompatible
 	github.com/go-stack/stack v1.8.0 // indirect
-	github.com/golang/mock v1.3.1 // indirect
 	github.com/gorilla/websocket v1.4.0
 	github.com/jarcoal/httpmock v1.0.4 // indirect
-	github.com/kyoh86/richgo v0.3.1 // indirect
-	github.com/kyoh86/xdg v1.0.0 // indirect
 	github.com/labstack/echo v3.3.10+incompatible // indirect
 	github.com/labstack/gommon v0.2.8
 	github.com/leodido/go-urn v1.1.0 // indirect
@@ -28,22 +25,14 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24
 	github.com/sirupsen/logrus v1.0.6
-	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.3.0
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/tidwall/gjson v1.2.1
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/tidwall/pretty v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.0.1 // indirect
-	github.com/wacul/ptr v0.0.0-20190222093950-93c3eb3ee7ea // indirect
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
-	golang.org/x/net v0.0.0-20190628185345-da137c7871d7 // indirect
-	golang.org/x/sys v0.0.0-20190710143415-6ec70d6a5542 // indirect
-	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/tools v0.0.0-20190710184609-286818132824 // indirect
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
-	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
 
-replace github.com/ethereum/go-ethereum => ../go-ethereum // v1.8.27github.com/ethereum/go-ethereum v0.0.0-00010101000000-000000000000
+replace github.com/ethereum/go-ethereum => ../novalex // v1.8.27github.com/ethereum/go-ethereum v0.0.0-00010101000000-000000000000
