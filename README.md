@@ -1,8 +1,5 @@
 # Nova SDK Backend
 
-[![CircleCI](https://circleci.com/gh/NovaProtocol/sdk-backend.svg?style=svg)](https://circleci.com/gh/NovaProtocol/sdk-backend)
-[![Go Report Card](https://goreportcard.com/badge/github.com/novaprotocolio/sdk-backend)](https://goreportcard.com/report/github.com/novaprotocolio/sdk-backend)
-
 The Nova SDK is a collection of golang language packages.
 You can use it to build a Dapp application backend based on the Nova contract quickly.
 It can help to communicate with Ethereum node, match orders, monitor Ethereum results and so on.
